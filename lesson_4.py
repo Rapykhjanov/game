@@ -189,7 +189,7 @@ class King(Hero):
 
     def attack(self, boss):
         if randint(1, 10) == 1:
-            print(f"{self.name} summons Saitama!")
+            print(f"{self.name} summons Saitama!")  
             self.saitama.attack(boss)
         else:
             print(f"{self.name} does not attack.")
